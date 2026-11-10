@@ -1,0 +1,4 @@
+﻿split,sample_n,mean_lexical_overlap_proxy,mean_lead_overlap_proxy,dataset
+test,30,0.8247090703502569,0.764168907258568,cnn_dailymail
+validation,30,0.8715023268291769,0.8057064455587359,cnn_dailymail
+train,30,0.8551198472261413,0.7897528044298514,cnn_dailymail

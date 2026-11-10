@@ -1,0 +1,4 @@
+﻿dataset,raw_rows,empty_removed,exact_removed,cross_split_removed,after_split,review_removed,silver_rows
+cnn_dailymail,311971,0,3103,1,308867,418,308449
+xsum,226711,34,103,53,226521,108,226413
+vietnews,143816,0,0,1,143815,30,143785

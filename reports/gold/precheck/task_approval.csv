@@ -1,0 +1,4 @@
+﻿dataset,language,task,evidence_status,approved,approved_by,approval_reason
+cnn_dailymail,en,normal,EDA_PLUS_PRELIMINARY_AI_ASSISTED_AUDIT,YES,HUMAN,Chọn cho Normal tiếng Anh
+xsum,en,super,EDA_PLUS_PRELIMINARY_AI_ASSISTED_AUDIT,YES,HUMAN,Chọn cho Super tiếng Anh
+vietnews,vi,super,EDA_PLUS_PRELIMINARY_AI_ASSISTED_AUDIT,YES,HUMAN,Chọn cho Super tiếng Việt

@@ -1,0 +1,4 @@
+﻿dataset,language,task,silver_rows,review_dropped,gold_rows,train,validation,test
+cnn_dailymail,en,normal,308449,120,308329,283513,13351,11465
+xsum,en,super,226413,371,226042,203434,11304,11304
+vietnews,vi,super,143785,4,143781,99102,22182,22497

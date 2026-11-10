@@ -1,0 +1,4 @@
+﻿split,sample_n,mean_lexical_overlap_proxy,mean_lead_overlap_proxy,dataset
+test,30,0.6195980016138404,0.5791101180045183,xsum
+train,30,0.6057585995663799,0.5850240612002627,xsum
+validation,30,0.6261770460017174,0.5978415009556458,xsum

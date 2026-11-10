@@ -1,0 +1,29 @@
+{
+  "dataset": "cnn_dailymail",
+  "raw_rows": 311971,
+  "empty_removed": 0,
+  "exact_removed": 3103,
+  "cross_split_removed": 1,
+  "after_split": 308867,
+  "review_removed": 418,
+  "silver_rows": 308449,
+  "by_split": {
+    "train": 283611,
+    "validation": 13361,
+    "test": 11477
+  },
+  "removed_by_reason": {
+    "EXACT_SOURCE_TARGET_DUPLICATE": 3103,
+    "CROSS_SPLIT_DUPLICATE": 1,
+    "VARIANT_TARGET_NOT_SELECTED": 9,
+    "NEAR_DUPLICATE_MANUAL": 409
+  },
+  "near_blocks_skipped": 29,
+  "review_decisions_sha256": {
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\reviews\\cnn_dailymail_source_target_variants.csv": "5210ba513ffff46777d0a5bf227edfce8242d8096c6b17c9988defd29109907b",
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\reviews\\cnn_dailymail_near_duplicate_candidates.csv": "6d155b45a21e947bb1c34acbcd106ddafd89a4397e0e1c6dd10a473399f746d6",
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\pre_review_summary.csv": "cede8a2c9d0234b3f73fa4ff4c7b3fbc11dde904f537ec884d10e9c810e44668"
+  },
+  "staging_directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\data\\_silver_pending_reviewed_20261110T062316Z\\cnn_dailymail",
+  "exclusion_directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\after_review\\cnn_dailymail\\exclusions"
+}

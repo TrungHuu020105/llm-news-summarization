@@ -1,0 +1,54 @@
+{
+  "status": "COMPLETE",
+  "created_at_utc": "2026-11-10T09:25:16.086746+00:00",
+  "silver_commit_manifest_sha256": "2492c6f147c2689f8b10cb3c07618cfb7c68e4b8bb48dd698a3ef53800d4431f",
+  "precheck_manifest_sha256": "aeb3edc54c19e6192d7ac7235c2980c94a96fd8623b812e7a52c3d64ee9238b4",
+  "review_files_sha256": {
+    "task_approval.csv": "cc074da3c78370f266950083e78a99279ecf2a616ccf2811f93831962dd94292",
+    "cnn_dailymail_risk_review.csv": "e8ffa387d45260103df3c3503feb6b6ef89e08189a352f98853f80dc67dcde2c",
+    "xsum_risk_review.csv": "0407ceb3b6d37dd9900ffdd8a6ed08ee1b7f9457370f458c45778d2a32ec465a",
+    "vietnews_risk_review.csv": "c7aed613b25952f35fc7d68b6d4e93c62fb288d5f7bba4a716e4542387ec5879"
+  },
+  "datasets": {
+    "cnn_dailymail": {
+      "task": "normal",
+      "language": "en",
+      "rows": 308329,
+      "split_counts": {
+        "validation": 13351,
+        "train": 283513,
+        "test": 11465
+      },
+      "directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\data\\gold\\cnn_dailymail"
+    },
+    "xsum": {
+      "task": "super",
+      "language": "en",
+      "rows": 226042,
+      "split_counts": {
+        "train": 203434,
+        "test": 11304,
+        "validation": 11304
+      },
+      "directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\data\\gold\\xsum"
+    },
+    "vietnews": {
+      "task": "super",
+      "language": "vi",
+      "rows": 143781,
+      "split_counts": {
+        "train": 99102,
+        "validation": 22182,
+        "test": 22497
+      },
+      "directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\data\\gold\\vietnews"
+    }
+  },
+  "notes": [
+    "One source, one approved target; no new reference generated",
+    "No tokenizer or truncation performed in Gold",
+    "VietNews source_text retains underscores; model_* replaces underscores with spaces",
+    "Human review of source-target suitability must not be overstated if AI-assisted",
+    "Near-duplicate audit inherited limitations from Silver blocking"
+  ]
+}

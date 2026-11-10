@@ -1,0 +1,30 @@
+{
+  "approved": false,
+  "approved_by": "",
+  "approved_date": "",
+  "human_audit_completed": false,
+  "near_duplicate_reviewed": false,
+  "cross_dataset_leakage_reviewed": false,
+  "datasets": {
+    "cnn_dailymail": {
+      "task": null,
+      "approved": false,
+      "rationale": ""
+    },
+    "xsum": {
+      "task": null,
+      "approved": false,
+      "rationale": ""
+    },
+    "vietnews": {
+      "task": null,
+      "approved": false,
+      "rationale": ""
+    },
+    "xlsum_vi": {
+      "task": null,
+      "approved": false,
+      "rationale": ""
+    }
+  }
+}

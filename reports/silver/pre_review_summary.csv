@@ -1,0 +1,4 @@
+﻿dataset,raw_rows,empty_rows,after_empty,exact_removed,after_exact,cross_split_removed,after_split,variant_groups,variant_review_rows,near_candidate_pairs_checked,near_review_pairs,near_blocks_skipped,near_unique_sources_checked
+cnn_dailymail,311971,0,311971,3103,308868,1,308867,9,18,12702,421,29,15437
+xsum,226711,34,226677,103,226574,53,226521,23,106,8634,141,20,7475
+vietnews,143816,0,143816,0,143816,1,143815,0,0,1505,231,0,1511

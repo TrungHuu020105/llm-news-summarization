@@ -1,0 +1,13 @@
+﻿dataset,split,actual,expected,status,revision,files
+cnn_dailymail,train,287113,287113,PASS,96df5e686bee6baa90b8bee7c28b81fa3fa6223d,3
+cnn_dailymail,validation,13368,13368,PASS,96df5e686bee6baa90b8bee7c28b81fa3fa6223d,1
+cnn_dailymail,test,11490,11490,PASS,96df5e686bee6baa90b8bee7c28b81fa3fa6223d,1
+xsum,train,204045,204045,PASS,7d4d486c2f8ef850b1a11aead99b894ff3dd7da9,1
+xsum,validation,11332,11332,PASS,7d4d486c2f8ef850b1a11aead99b894ff3dd7da9,1
+xsum,test,11334,11334,PASS,7d4d486c2f8ef850b1a11aead99b894ff3dd7da9,1
+vietnews,train,99134,99134,PASS,39e2837bd57c09af5ca6f80a6483d40d904ad1ca,1
+vietnews,validation,22184,22184,PASS,39e2837bd57c09af5ca6f80a6483d40d904ad1ca,1
+vietnews,test,22498,22498,PASS,39e2837bd57c09af5ca6f80a6483d40d904ad1ca,1
+xlsum_vi,train,32111,32111,PASS,fcbaaeaec2ec660c6164ea74e8e7371b66883670,1
+xlsum_vi,validation,4013,4013,PASS,fcbaaeaec2ec660c6164ea74e8e7371b66883670,1
+xlsum_vi,test,4013,4013,PASS,fcbaaeaec2ec660c6164ea74e8e7371b66883670,1

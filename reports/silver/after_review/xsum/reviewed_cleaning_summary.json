@@ -1,0 +1,32 @@
+{
+  "dataset": "xsum",
+  "raw_rows": 226711,
+  "empty_removed": 34,
+  "exact_removed": 103,
+  "cross_split_removed": 53,
+  "after_split": 226521,
+  "review_removed": 108,
+  "silver_rows": 226413,
+  "by_split": {
+    "train": 203766,
+    "test": 11326,
+    "validation": 11321
+  },
+  "removed_by_reason": {
+    "EMPTY_SOURCE_OR_TARGET": 34,
+    "EXACT_SOURCE_TARGET_DUPLICATE": 103,
+    "CROSS_SPLIT_DUPLICATE": 53,
+    "BOILERPLATE_SOURCE": 53,
+    "NEAR_DUPLICATE_MANUAL": 52,
+    "VARIANT_TARGET_NOT_SELECTED": 3
+  },
+  "near_blocks_skipped": 20,
+  "review_decisions_sha256": {
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\reviews\\xsum_source_target_variants_drop20_groups.csv": "3c695c7e17b97a038b50598933798f893568a1c08efdba8ba4cf443e53e4ec97",
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\reviews\\xsum_near_duplicate_candidates.csv": "114968cdb1feecf89bb1a9ef0f2954f8744eab88718d308e0acdc4368600adb5",
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\reviews\\xsum_boilerplate_groups_to_exclude.csv": "b107b9c97af91039be02012424249b8ef176b82d1fa8ddf61d8bdefb7594ef8a",
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\pre_review_summary.csv": "cede8a2c9d0234b3f73fa4ff4c7b3fbc11dde904f537ec884d10e9c810e44668"
+  },
+  "staging_directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\data\\_silver_pending_reviewed_20261110T062316Z\\xsum",
+  "exclusion_directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\after_review\\xsum\\exclusions"
+}

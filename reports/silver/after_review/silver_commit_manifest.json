@@ -1,0 +1,39 @@
+{
+  "status": "COMPLETE",
+  "created_at_utc": "2026-11-10T06:47:38.600738+00:00",
+  "datasets": {
+    "cnn_dailymail": {
+      "rows": 308449,
+      "split_counts": {
+        "train": 283611,
+        "validation": 13361,
+        "test": 11477
+      },
+      "directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\data\\silver\\cnn_dailymail"
+    },
+    "xsum": {
+      "rows": 226413,
+      "split_counts": {
+        "train": 203766,
+        "test": 11326,
+        "validation": 11321
+      },
+      "directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\data\\silver\\xsum"
+    },
+    "vietnews": {
+      "rows": 143785,
+      "split_counts": {
+        "train": 99105,
+        "test": 22498,
+        "validation": 22182
+      },
+      "directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\data\\silver\\vietnews"
+    }
+  },
+  "notes": [
+    "Bronze unchanged",
+    "VietNews word segmentation preserved",
+    "XSum: dropped 20 approved boilerplate source groups",
+    "Near-duplicate detection is not exhaustive: blocking can skip large blocks"
+  ]
+}

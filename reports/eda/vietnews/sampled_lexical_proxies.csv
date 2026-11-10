@@ -1,0 +1,4 @@
+﻿split,sample_n,mean_lexical_overlap_proxy,mean_lead_overlap_proxy,dataset
+test,30,0.8574240008005577,0.813083147897713,vietnews
+train,30,0.8522716989468662,0.8134985249251595,vietnews
+validation,30,0.8578663941383683,0.8115735125120022,vietnews

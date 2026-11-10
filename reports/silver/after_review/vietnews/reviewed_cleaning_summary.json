@@ -1,0 +1,27 @@
+{
+  "dataset": "vietnews",
+  "raw_rows": 143816,
+  "empty_removed": 0,
+  "exact_removed": 0,
+  "cross_split_removed": 1,
+  "after_split": 143815,
+  "review_removed": 30,
+  "silver_rows": 143785,
+  "by_split": {
+    "train": 99105,
+    "test": 22498,
+    "validation": 22182
+  },
+  "removed_by_reason": {
+    "CROSS_SPLIT_DUPLICATE": 1,
+    "NEAR_DUPLICATE_MANUAL": 30
+  },
+  "near_blocks_skipped": 0,
+  "review_decisions_sha256": {
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\reviews\\vietnews_source_target_variants.csv": "cc1e50a70404e9ed4101e95b26ab213f729ad2ae90c1d29dd0a1e7782fcab519",
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\reviews\\vietnews_near_duplicate_candidates.csv": "c058552a65ce963c5ea755736c0802145674f166b9b459017a178bb536ce7ded",
+    "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\pre_review_summary.csv": "cede8a2c9d0234b3f73fa4ff4c7b3fbc11dde904f537ec884d10e9c810e44668"
+  },
+  "staging_directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\data\\_silver_pending_reviewed_20261110T062316Z\\vietnews",
+  "exclusion_directory": "D:\\DuLieuCuaHuu\\HK1_20262027\\BigData\\CK_BIG\\reports\\silver\\after_review\\vietnews\\exclusions"
+}

@@ -1,0 +1,5 @@
+﻿dataset,rows,groups,excess_records,reference_variant_groups,cross_split_groups
+cnn_dailymail,311971,3103,3113,9,1
+xsum,226711,56,192,23,13
+vietnews,143816,0,0,0,0
+xlsum_vi,40137,3,3,3,1
